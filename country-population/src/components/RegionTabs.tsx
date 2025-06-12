@@ -15,6 +15,7 @@ export function RegionTabs({
 }: RegionTabsProps) {
   return (
     <ScrollArea className="w-full whitespace-nowrap">
+      <h1>Hello World</h1>
       <div className="flex w-max space-x-4 p-4">
         {regions.map((region) => (
           <button

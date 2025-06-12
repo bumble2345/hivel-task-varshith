@@ -23,7 +23,7 @@ const ContextMenu: React.FC<ContextMenuProps> = ({
   return (
     <Card className="absolute z-10 w-64" style={{ top: y, left: x }}>
       <CardHeader>
-        Hello
+        Hello world
         <CardTitle>{entity.name}</CardTitle>
       </CardHeader>
       <CardContent>

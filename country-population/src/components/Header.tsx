@@ -14,6 +14,7 @@ import { Badge } from "@/components/ui/badge";
 export function Header() {
   return (
     <div className="border-b">
+      <h1>Hello World</h1>
       <div className="flex items-center p-4">
         <Button variant="ghost" size="icon" className="mr-2">
           <ArrowLeft className="h-4 w-4" />

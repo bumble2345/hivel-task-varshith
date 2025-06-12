@@ -6,8 +6,7 @@ import Dashboard from "./components/Dashboard";
 const App: React.FC = () => {
   return (
     <Provider store={store}>
-      <h1>Hello</h1>
-      <h2>world</h2>
+      <h1>Hello World</h1>
       <Dashboard />
     </Provider>
   );

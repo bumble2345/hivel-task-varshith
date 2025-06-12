@@ -17,6 +17,7 @@ export function StatsCard({ title, value, change, period }: StatsCardProps) {
       <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
         <CardTitle className="text-sm font-medium">{title}</CardTitle>
       </CardHeader>
+      <h1>Hello World</h1>
       <CardContent>
         <div className="text-2xl font-bold">{value}</div>
         <p className="text-xs text-muted-foreground">

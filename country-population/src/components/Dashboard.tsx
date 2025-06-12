@@ -40,7 +40,7 @@ export default function Dashboard() {
   if (isLoading) {
     return (
       <div className="flex h-screen items-center justify-center">
-        <h1>Hello World</h1>
+        <h1>Hello World test</h1>
         <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
       </div>
     );
